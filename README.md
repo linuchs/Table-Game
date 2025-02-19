@@ -20,9 +20,11 @@ Il file .js dovrà contenere una o piu' funzioni/metodi specializzanti
 la classe giocatore specifica.
 
 Info: http://www.pergioco.net/Giochi/GiochiDiTavoliere/Iena/Iena.htm
+
 Status: Assigned
+
 Tag: 0x46
-----------------------------------------------------------
+
 ----------------------------------------------------------
 Files usati:
 

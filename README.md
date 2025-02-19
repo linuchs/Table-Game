@@ -1,7 +1,6 @@
 # Table-Game
-----------------------------------------------------------
-Team: Allegra
 
+Team: Allegra
 Realizzare una piattaforma di gioco su scacchiera, estendibile e
 basata su classi JavaScript.
 Dovranno essere presenti le classi:
@@ -25,8 +24,7 @@ Status: Assigned
 
 Tag: 0x46
 
-----------------------------------------------------------
-Files usati:
+# Files usati:
 
 index.php //la pagina principale
 
@@ -52,13 +50,11 @@ punteggio.dat// contiene i risultati delle partite
 
 style.css 
 
-----------------------------------------------------------
 Le pagina di login e di logout vengono gestiti in index.php tramite funzioni.php che contiene i metodi della classe  GestoreLogin.
 Questi gestiscono la registrazione dei player, o il semplice login
 SOLO chi e' registato puo salvare i punteggi della propria partita e vedere quelli degli altri giocatori,
 L'utente NON REGISTRATO puo anche esso giocare ma non potra registare i propri punteggi ne tantomeno vedere quelli degli altri.
 
-----------------------------------------------------------
 index.php usa funzioni.php,funzioni.js,
 player.js 
 human_player.js
@@ -66,5 +62,3 @@ computer_player.js
 style.css 
 punteggi.php usa funzioni_punteggi.php prende i parametri passati tramite POST da index.php e 
 scrive su punteggio.dat che contiene i risultati delle partite
-
-----------------------------------------------------------

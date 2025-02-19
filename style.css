@@ -1,0 +1,342 @@
+body
+{
+/*margin:auto;*/
+padding:0px;
+background-color: #D2D696;
+}
+#titolo
+{
+font-size:20px;
+background-color:#FFCC33;
+border:0px outset;
+color:#000000;
+width:1200px;
+
+}
+/******************************radio button scelta tipo player******************************/
+#radio_buttons
+{
+width:200px;
+height:200px;
+font-size:20px;
+color: #000000;
+background-color: #FFCC33;
+
+text-align:left;
+}
+#radio_buttons td{
+text-align: center;		
+
+color:#000000;
+}
+/************************************************************************************************/
+
+#container
+{
+border:0px;
+width:1200px;
+height:600px;
+}
+
+#container_td 
+{
+border:1px inset;
+width:600px;
+}
+#tabella_dadi
+{
+border:1px #FF0000;
+width:600px;
+height:600px;}
+
+#td_dadi_up
+{border:1px #FF0000;
+height:200px;width:600px;
+}
+#td_dadi_down
+{border:1px #FF0000;
+height:400px;
+width:600px;
+}
+
+/*---------------sinistra superiore e inferiore---------*/
+#box_fw_td
+{width:250px;
+height:100px;}
+#box_fw_table
+{width:600px;
+height:100px;}
+/*------------dimensione caselle percorso------------------------------------------*/
+
+td
+{
+width:30px;
+height:30px;
+text-align:center;
+padding:0px 0px 0px 0px;
+cursor:default;
+}
+tr
+{
+width:30px;
+height:30px;
+cursor:default;
+}
+/**********************************************************************************/
+input
+{
+width:30px;
+}
+.box_track_empty
+{	background-color:#D2D696;
+}
+.box_track_casella
+{	
+position:absolute;
+border:0px inset;
+background-image: url(img/casella.gif);
+/*background-color:#D2D696;*/
+
+}
+.box_villaggio
+{
+position:absolute;
+/*border:1px inset;*/
+background-image: url(img/villaggio.gif);
+/*background-color:#D2D696;*/
+color:#fff000;
+}
+.box_pozzo
+{
+position:absolute;
+/*border:1px inset;*/
+background-image: url(img/pozzo.gif);
+/*background-color:#D2D696;*/
+color:#fff000;
+}
+.box_track_hor
+{	
+background-image: url(img/hor.gif);
+
+}
+.box_track_vert
+{	
+background-image: url(img/vert.gif);
+
+}
+#div_tabella
+{
+vertical-align:middle;
+margin:0px 0px 0px 0px;
+}
+table.tabella
+{
+
+z-index:1;
+}
+
+#salva
+{
+background-color:#ccc;
+width:auto;
+font-size:20px;
+/*visibility:hidden;*/
+}
+#ripristina
+{
+background-color:#ccc;
+width:auto;
+font-size:20px;
+visibility:hidden;
+}
+#indietro
+{
+background-color:#ccc;
+width:auto;
+font-size:20px;
+visibility:hidden;
+}
+#premi
+{
+width:100px;
+}
+#start
+{
+height:100px;
+width:120px;
+}
+#getta
+{
+height:100px;
+width:120px;
+visibility: hidden;
+}
+
+/*************************i bastoncini*********************************/
+.nero
+{	font-size:14px;
+background-color:#ffffff;
+border:1px inset;
+width:200px;
+height:50px;
+color:#000000;
+}
+.bianco
+{
+font-size:14px;
+background-color:#000000;
+border:1px inset;
+width:200px;
+height:50px;
+color:#ffffff;
+}
+
+/***************************info sui giocatori*********************************/
+#giocatore_1
+{font-size:16px;
+color:#ffffff;
+background-color:#663366;
+width:100px;
+height:100px;
+border:0px inset;
+}
+#giocatore_2
+{font-size:16px;
+color:#ffffff;
+background-color:#c05f00;
+width:100px;
+height:100px;
+border:0px inset;
+}
+/*****************Info sul numero di tabe di ciascun giocatore***********************/
+#taba_counter_1
+{font-size:16px ;
+color:#ffffff;
+background-color:#663366;
+width:100px;
+height:100px;
+border:0px inset;
+}
+#taba_counter_2
+{font-size:16px ;
+color:#ffffff;
+background-color:#c05f00;
+width:100px;
+height:100px;
+border:0px inset;
+}
+/****************************************************************************/
+#getta2
+
+{font-size:16px;
+color:#000000;
+background-color:#ff0000;
+width:120px;
+height:40px;
+
+}
+#getta2:hover
+
+{font-size:16px;
+color:#000000;
+background-color:#00ff00;
+width:120px;
+height:40px;
+
+}
+/***********************icone dei player e iena********************************************************/
+.item_1
+{
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+right:0px;
+left:-15px;
+text-align:center;
+z-index:0;
+/*background-color:#663366;*/
+padding:0px;
+border:0px outset  #663366;
+color:#ffffff;
+background-image:url(img/w1_africa.png);
+
+visibility:hidden;
+}
+.item_2
+{
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+right:0px;
+left:0px;
+text-align:center;
+z-index:0;
+/*background-color:#c05f00;*/
+padding:0px;
+border:0px outset  #c05f00;
+background-image:url(img/w2_africa.png);
+color:#ffffff;
+visibility:hidden;
+}
+.item_3
+{
+width:50px;
+height:50px;
+position:absolute;
+top:0px;
+right:-10px;
+left:0px;
+text-align:center;
+z-index:0;
+/*background-color:#ffff00;*/
+background-image:url(img/jena.gif);
+
+padding:0px;
+border:0px;
+/**/visibility:hidden;
+}
+
+
+/******************form  di login**************************/
+table.login
+{width:250px;
+	background-color:#bbbbbb;
+	border: dotted #000000;
+}
+
+#pass
+{	width:100px;
+	border:inset 1px;
+	background-color: #FFFFCC;
+}
+#log
+{	width:100px;
+	border:inset 1px;
+	background-color: #FFFFCC;
+}
+#but{width:100px;}
+#bottone_reg{width:100px;}
+	
+/*******************************logout **************************/
+.presentazione
+{ 
+font-size:12px;border: dotted #000000; width:300px;background-color:#bbbbbb;}
+#info_utente{width:200px; font-size:11px;height:30px;}
+#logout_button{width:200px; font-size:11px;height:30px;}
+#avvia_nuova{width:200px; font-size:11px; height:30px;}
+
+/****************************************************************/
+#salva
+{
+	background-color:#bbbbbb;
+	width:auto;
+	font-size:20px;
+	visibility:hidden;
+}
+
+
+
+
+

@@ -39,28 +39,24 @@ funzioni_punteggi.php //contiene i metodi usati dentro punteggi.php
 GameBoard.js //contiene tutti i metodi di gestione e costruzione della tabella e dei suoi player
 
 player.js //contiene i metodi della classe player ereditata da human_player computer_player
+
 human_player.js
+
 computer_player.js
 
-funzioni.js  //contiene alcune funzioni di supporto slegate dalle altre classi compresa la funzione crea()
-che mi servira come scheletro per la mia classe GameBoard()
+funzioni.js  //contiene alcune funzioni di supporto slegate dalle altre classi compresa la funzione crea() che mi servira come scheletro per la mia classe GameBoard()
+
 login.dat //contiene i dati di login dei player
+
 punteggio.dat// contiene i risultati delle partite
+
 style.css 
+
 ----------------------------------------------------------
-----------------------------------------------------------
-----------------------------------------------------------
-il login e il logout viengono gestiti in index.php
-tramite funzioni.php che contiene i metodi della classe  GestoreLogin.
+Le pagina di login e di logout vengono gestiti in index.php tramite funzioni.php che contiene i metodi della classe  GestoreLogin.
 Questi gestiscono la registrazione dei player, o il semplice login
-SOLO chi e' registato puo salvare i punteggi della propria partita
-e vedere quelli degli altri giocatori,
-L'utente NON REGISTRATO puo anche esso giocare ma non potra registare i propri punteggi 
-ne tantomeno vedere quelli degli altri.
-
-
-
-
+SOLO chi e' registato puo salvare i punteggi della propria partita e vedere quelli degli altri giocatori,
+L'utente NON REGISTRATO puo anche esso giocare ma non potra registare i propri punteggi ne tantomeno vedere quelli degli altri.
 
 ----------------------------------------------------------
 index.php usa funzioni.php,funzioni.js,
@@ -68,8 +64,6 @@ player.js
 human_player.js
 computer_player.js
 style.css 
-----------------------------------------------------------
-
 punteggi.php usa funzioni_punteggi.php prende i parametri passati tramite POST da index.php e 
 scrive su punteggio.dat che contiene i risultati delle partite
 
